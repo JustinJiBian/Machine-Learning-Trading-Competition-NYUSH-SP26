@@ -18,12 +18,14 @@ Download Stock_competition.ipynb and run all cell in Google Colab, the hyperpara
    cd ml-competition-sp26
 
 2. Install Dependencies:
-pip install -r requirements.txt
-pip install xgboost lightgbm catboost
+   ```bash
+   pip install -r requirements.txt
+   pip install xgboost lightgbm catboost
 
 3. Download/Update Data:
 Ensure your data is updated to the latest available date used in the report (May 2, 2026):
-python download_data.py --start 20250101 --end 20260502
+   ```bash
+   python download_data.py --start 20250101 --end 20260502
 
 🔄 How to Reproduce Results
 To reproduce the exact portfolio uploaded to Gradescope:
