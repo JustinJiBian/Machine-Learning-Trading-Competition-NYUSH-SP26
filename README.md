@@ -9,9 +9,6 @@ This repository contains the end-to-end pipeline for a high-alpha equity portfol
 
 ## 🛠 Installation & Setup
 
-0. **Fastest way to reproduce the result**:
-Download Stock_competition.ipynb and run all cell in Google Colab, the hyperparameters and random seeds are in the file as well as below.
-
 1. **Clone the official competition repo first** (to get data utilities):
    ```bash
    git clone [https://github.com/NYUSH-ML/ml-competition-sp26.git](https://github.com/NYUSH-ML/ml-competition-sp26.git)
