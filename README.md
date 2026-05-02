@@ -40,7 +40,7 @@ The final cell will generate submission_final_for_real.csv, which matches the su
 
 ⚙️ Reproducibility Configuration
 The following parameters are hardcoded in the CONFIG dictionary to ensure deterministic results.
-
+```bash
 Parameter,Value,Description
 random_seed,42,Ensures deterministic XGBoost splits
 n_estimators,1500,Tree count for ensemble experts
