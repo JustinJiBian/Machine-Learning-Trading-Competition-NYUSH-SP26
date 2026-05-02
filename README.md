@@ -54,4 +54,5 @@ To ensure the +173.48 BPS result is reproducible, the following configuration mu
 | **Pipeline** | `random_seed` | `42` | Ensures deterministic results |
 | | `embargo_days` | `5` | Zero look-ahead leakage |
 
+## Acknowledgements
 Developed with the assistance of Google Gemini 3.1 Pro.
